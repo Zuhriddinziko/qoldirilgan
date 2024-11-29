@@ -1,0 +1,67 @@
+.newForm {
+
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.708);
+    padding-right: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.corr {
+    width: 1000px;
+    height: 500px;
+}
+
+.newFormCard {
+    border-radius: 10px;
+    background-color: rgb(42, 128, 165);
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px;
+    margin: 0;
+}
+
+.newuser {
+    margin: 0px;
+    text-align: center;
+}
+
+span {
+    display: block;
+}
+
+.texte {
+    width: 280px;
+    height: 20px;
+    border-radius: 3px;
+    border: none;
+
+}
+
+.male {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+}
+
+small {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.gender {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

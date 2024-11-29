@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+
+}
+
+body {
+  background-color: rgba(107, 104, 100, 0.363);
+}
+
+.user {
+  position: relative;
+}
+
+.main {
+  padding-top: 80px;
+  height: 600px;
+  width: 100%
+}
+
+
+.no_user {
+  font-size: 4rem;
+  font-weight: bold;
+  opacity: 10%;
+  color: #131010;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+}
+
+.btnn {
+  width: 180px;
+  position: absolute;
+  height: 35px;
+  position: fixed;
+  top: 68%;
+  border: none;
+  left: -75px;
+  transform: rotate(90deg);
+}
